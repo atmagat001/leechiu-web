@@ -29,7 +29,7 @@ class Header extends Component {
 
                     <div className={this.state.mobileMenu ? "mobile-menu" : "mobile-menu-hide"}>
                         <ul className={this.state.mobileMenu ? "mobile-ul" : ""}>
-                            <li><a href="">About Us</a></li>
+                            <li><a href="#AboutUs">About Us</a></li>
                             <li><a href="">Our Services</a></li>
                             <li><a href="">Office Spaces For Lease</a></li>
                             <li><a href="">Properties for Sale</a></li>

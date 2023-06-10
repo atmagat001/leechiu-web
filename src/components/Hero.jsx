@@ -12,8 +12,8 @@ class Hero extends Component {
                 <h1>How can we help you?</h1>
                 <form className="search-div" action="">
                       <input type="text" placeholder="Im Looking for a Property" />
-                    <button>For Rent</button>
-                    <button>For Sale</button>
+                    <button className="btn-std">For Rent</button>
+                    <button className="btn-std">For Sale</button>
 
                 </form>
 

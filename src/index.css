@@ -84,8 +84,9 @@ a::after {
 a:hover::after {
   width: 100%;
   transition: .5s;
- 
+  
 }
+
 
 i {
   color: white;
@@ -95,8 +96,13 @@ i {
 }
 
 header button {
-  display: none;
-  z-index: 3;
+    display: none;
+    cursor: pointer;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+    width: auto;
+    height: auto;
 }
 
 .mobile-menu {
@@ -121,17 +127,18 @@ header button {
 }
 
 .hero-container {
-  height: 500px;
+  min-height: 150px;
   width: 100%;
   background-color: lightblue;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 
-.hero-container button {
+.btn-std {
   margin: 5px;
   padding: 10px 20px;
   background-color: var(--blue);
@@ -163,11 +170,60 @@ header button {
  
 }
 
+.About-us p {
+  margin: 20px auto;
+  font-size: 20px;
+  text-align: start;
+  width: 80%;
+
+}
+
+.banner {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+  background-size: cover;
+  background-position: contain;
+ 
+  
+}
+
+.banner-container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.41);
+  
+}
+
+.banner h1 {
+max-width: 1120px;
+margin: 0 auto;
+ text-align: center;
+ color: white;
+ padding: 20px ;
+ 
+}
+
+.About-us h1 {
+  margin: 20px auto;
+}
+
+.About-us button {
+  background-color: orangered;
+  width: 300px;
+}
 
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: #efefef;
   }
 
   .mobile-menu-hide {
@@ -192,5 +248,10 @@ header button {
   .search-div {
     flex-flow: column;
   }
+
+  .banner h1 {
+    color: white;
+
+   }
 
 }
