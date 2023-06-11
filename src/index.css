@@ -126,6 +126,7 @@ header button {
     height: 200px;
     width: 100%;
     transition: 2s;
+    z-index: 5;
   
   
 }
@@ -432,6 +433,7 @@ margin: 0 auto;
 
   .mobile-menu-hide {
     display: none;
+
     
   }
 
