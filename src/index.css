@@ -168,9 +168,9 @@ header button {
 }
 
 .hero-container {
- /*  position: sticky;
+  position: sticky;
   top: 70px;
-  z-index: 3; */
+  z-index: 3;
   
   
 }
@@ -441,8 +441,13 @@ margin: 0 auto;
     display: flex;
     flex-flow: column;
     margin: 20px 0;
+
+    
   }
 
+  .hero-container {
+    position: static;
+  }
 
 
   header button {
