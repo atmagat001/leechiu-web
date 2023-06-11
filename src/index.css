@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  color: rgb(77, 73, 73);
 }
 
-
+h1 {
+  font-size: 1.7rem;
+}
 
 :root {
   --blue: #273895;
@@ -19,6 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #efefef;
 }
 
 code {
@@ -130,13 +134,14 @@ header button {
 }
 
 .hero-container {
-  min-height: 150px;
+ 
   width: 100%;
   background-color: lightblue;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 0;
   
 }
 
@@ -149,9 +154,10 @@ header button {
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1rem;
   border-radius: 5px;
   width: 200px;
+
 }
 
 .hero-container input {
@@ -161,8 +167,9 @@ header button {
   outline: none;
   border-radius: 5px;
   font-size: 20px;
-  width: 100%;
+  width: 75%;
   text-align: center;
+  font-size: 1rem;
 }
 
 .search-div {
@@ -173,13 +180,39 @@ header button {
  
 }
 
+.About-us {
+  background-color: #efefef;
+  padding: 20px 20px;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+
+  
+}
+
+
+
+.About-us h1 {
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.About-us button {
+  background-color: orangered;
+  width: 300px;
+  
+}
+
 .About-us p {
   margin: 20px auto;
-  font-size: 20px;
-  text-align: start;
-  width: 80%;
-
+  text-align: left;
+  width: 100%;
+  font-size: 1rem;
+  
 }
+
+
 
 .banner {
   height: 500px;
@@ -211,16 +244,21 @@ margin: 0 auto;
  text-align: center;
  color: white;
  padding: 20px ;
- 
+ letter-spacing: 2.5px;
+ font-size: 1.5rem;
 }
 
-.About-us h1 {
-  margin: 20px auto;
+
+
+.services {
+  height: 500px;
+  width: 100%;
+
 }
 
-.About-us button {
-  background-color: orangered;
-  width: 300px;
+.services {
+  padding: 20px 0;
+  background-color: white;
 }
 
 
@@ -250,6 +288,8 @@ margin: 0 auto;
 
   .search-div {
     flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 
   .banner h1 {

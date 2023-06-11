@@ -33,7 +33,8 @@ class Header extends Component {
                             <li><a href="">Our Services</a></li>
                             <li><a href="">Office Spaces For Lease</a></li>
                             <li><a href="">Properties for Sale</a></li>
-                            <li><a href="">Contact us</a></li>
+                            <li><a href="">Residential</a></li>
+                            <li><a href="">Schedule an appointment</a></li>
 
                         </ul>
 
