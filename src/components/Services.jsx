@@ -4,7 +4,7 @@ function Services() {
   return (
     <div className='services' id='services'>
         <div className="services-container">
-            <h1>We help you make the most out of your Real Estate Asset</h1>
+            <h1>Our Services help you make the most out of your Real Estate Asset</h1>
             <div className='services-underline'></div>
             <p>OUR SERVICES</p>
             <div className="card-container cont-row">
